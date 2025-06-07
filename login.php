@@ -38,7 +38,7 @@
         </form>
 
 
-        <form class="signup" action="" method="post">
+        <form class="signup close" action="" method="post">
 
             <h1>Criar conta</h1>
 
@@ -69,9 +69,9 @@
 
         </form>
 
-
     </main>
 
+    <script src="assets/js/scripts.js"></script>
 
 </body>
 
