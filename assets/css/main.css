@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primaria: #544E61;
+    --secundaria: #A499B3;
+    --texto: #222222;
+    --fundo: #E7E7E7;
+}
