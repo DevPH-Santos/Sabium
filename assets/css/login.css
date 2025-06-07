@@ -1,8 +1,10 @@
 main{
     display: flex;
+    border-radius: 0;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-color: var(--texto);
 }
 
 main form{
