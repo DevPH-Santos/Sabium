@@ -63,7 +63,7 @@
 
             </label>
 
-            <button type="submit">Entrar</button>
+            <button type="submit">Criar conta</button>
 
             <span onclick="mudar_form()">Entrar em uma conta existente</span>
 
