@@ -1,18 +1,21 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/login.css">
     <title>Sabium - Login</title>
 </head>
+
 <body>
 
-    <div class="signin">
+    <main>
 
-        <form action="" method="post">
+        <form class="signin" action="" method="post">
 
-            <h1>SignIn</h1>
+            <h1>Entrar</h1>
 
             <label>
 
@@ -30,17 +33,14 @@
 
             <button type="submit">Entrar</button>
 
+            <span onclick="mudar_form()">Criar uma conta</span>
+
         </form>
 
-        <span onclick="mudar_form()">Criar conta</span>
 
-    </div>
+        <form class="signup" action="" method="post">
 
-    <div class="signup">
-
-        <form action="" method="post">
-
-            <h1>SignUp</h1>
+            <h1>Criar conta</h1>
 
             <label>
 
@@ -65,11 +65,14 @@
 
             <button type="submit">Entrar</button>
 
+            <span onclick="mudar_form()">Entrar em uma conta existente</span>
+
         </form>
 
-        <span onclick="mudar_form()">Logar</span>
 
-    </div>
-    
+    </main>
+
+
 </body>
+
 </html>

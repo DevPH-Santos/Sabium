@@ -1,0 +1,57 @@
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 20px;
+    width: 460px;
+    background-color: var(--fundo);
+    gap: 10px;
+
+    label{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+
+        input{
+            border: 1px solid black;
+            border-radius: 3px;
+            width: 300px;
+            padding: 5px;
+            font-size: 18px;
+            outline: 1px solid transparent;
+        }
+
+    }
+
+    button{
+        margin-top: 40px;
+        padding: 10px 45px;
+        background-color: var(--primaria);
+        color: white;
+        border: none;
+        outline: none;
+        border-radius: 10px;
+        font-size: 18px;
+        cursor: pointer;
+    }
+
+    span{
+        font-weight: bolder;
+        color: var(--primaria);
+        cursor: pointer;
+    }
+
+}
+
+main form.signin{
+    display: none;
+}
